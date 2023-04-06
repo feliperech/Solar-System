@@ -1,0 +1,23 @@
+.missions-element {
+  border: 1px solid whitesmoke;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  margin: 1%;
+  position: relative;
+  width: 20%;
+}
+
+.missions-element:hover {box-shadow: 0 5px 5px #0ae4ec;
+  cursor: pointer;
+  top: -2px;
+  transform: scale(1.05);
+}
+
+.missions-container {
+  background-color: rgba(255, 252, 252, 0.03);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

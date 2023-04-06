@@ -1,0 +1,15 @@
+.planets-list {
+  background-color: rgba(255, 252, 252, 0.03);
+  display: flex;
+  justify-content: space-around;
+}
+
+.planet-elements {
+  margin: 1%;
+}
+
+.planet-elements:hover {box-shadow: 0 4px  #0ae4ec;
+  cursor: pointer;
+  top: 5px;
+  transform: scale(1.05);
+}
